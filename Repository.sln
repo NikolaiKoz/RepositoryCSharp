@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Business", "Muvies.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Entities", "Movies.Entities\Movies.Entities.csproj", "{AC2875E9-3B30-4A00-9027-3B9B8BF3EB0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Data", "Movies.Data\Movies.Data.csproj", "{8520E864-6A5A-40EA-AAD6-69A3022BB3DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AC2875E9-3B30-4A00-9027-3B9B8BF3EB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2875E9-3B30-4A00-9027-3B9B8BF3EB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2875E9-3B30-4A00-9027-3B9B8BF3EB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8520E864-6A5A-40EA-AAD6-69A3022BB3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8520E864-6A5A-40EA-AAD6-69A3022BB3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8520E864-6A5A-40EA-AAD6-69A3022BB3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8520E864-6A5A-40EA-AAD6-69A3022BB3DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
