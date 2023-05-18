@@ -1,4 +1,6 @@
-﻿namespace Movies.Data
+﻿using Movies.Entities;
+
+namespace Movies.Data
 {
     public class MovieRepository
     {
@@ -8,7 +10,7 @@
             var movies = new List<Movie>();
             for (int i = 1; i <= 15; i++)
             {
-                movies.Add(new Movies()
+                movies.Add(new Movie()
                 {
                     MovieId = i,
                     Name = $"Movie #{i}",
