@@ -1,7 +1,23 @@
 ﻿namespace Movies.Data
 {
-    public class Class1
+    public class MovieRepository
     {
+
+        public List<Movie> GetAll()
+        {
+            var movies = new List<Movie>();
+            for (int i = 1; i <= 15; i++)
+            {
+                movies.Add(new Movies()
+                {
+                    MovieId = i,
+                    Name = $"Movie #{i}",
+                    ImageUrl = string.Empty
+                });
+            }
+
+            return movies;
+        }
 
     }
 }
